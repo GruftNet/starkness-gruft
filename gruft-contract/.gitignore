@@ -1,0 +1,4 @@
+.snfoundry.toml
+target
+.snfoundry_cache/
+.Scarb.toml

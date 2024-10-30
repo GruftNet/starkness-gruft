@@ -1,0 +1,53 @@
+.withdrawal-container {
+    padding: 20px;
+    background-color: #f0f8ff; /* Light background color */
+    color: #333; /* Dark text for contrast */
+    max-width: 400px; /* Limit width for better readability */
+    margin: auto; /* Center the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center; /* Center the title */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, select {
+    width: 100%; /* Full width for inputs */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .withdrawal-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #dc3545; /* Danger color for withdrawal */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%; /* Full width for button */
+  }
+  
+  .withdrawal-btn:hover {
+    background-color: #c82333; /* Darker shade on hover */
+  }
+  
+  .feedback-message {
+    margin-top: 20px;
+    color: green; /* Success message color */
+    text-align: center; /* Center the feedback message */
+  }

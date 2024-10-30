@@ -1,0 +1,73 @@
+.dashboard-container {
+    padding: 20px;
+    background-color: #f0f8ff; /* Light background color */
+    color: #333; /* Dark text for contrast */
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.assets-section, .transactions-section {
+    margin-bottom: 40px;
+}
+
+.assets-section h2, .transactions-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff; /* Primary color */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Zebra striping */
+}
+
+tr:hover {
+    background-color: #ddd; /* Highlight on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem; /* Adjust font size for mobile */
+    }
+
+    .assets-section h2, .transactions-section h2 {
+        font-size: 1.75rem; /* Adjust font size for section headers */
+    }
+
+    th, td {
+        padding: 6px; /* Reduced padding in table cells */
+    }
+
+    ul {
+        padding-left: 15px; /* Add left padding for nested ul */
+    }
+
+    table {
+        display: block; /* Enable horizontal scrolling on small screens */
+        overflow-x: auto; /* Enable horizontal scrolling on small screens */
+        -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    }
+}

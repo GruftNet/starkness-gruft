@@ -1,0 +1,63 @@
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #1a1a1a; /* Dark background for a modern look */
+    color: #ffffff; /* White text for contrast */
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px; /* Space between buttons */
+}
+
+.welcome-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #007bff; /* Primary color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.welcome-btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem; /* Smaller font size for mobile */
+    }
+
+    p {
+        font-size: 1rem; /* Smaller font size for mobile */
+        margin-bottom: 30px; /* Adjust bottom margin */
+    }
+
+    .welcome-btn {
+        padding: 8px 16px; /* Reduce padding for buttons */
+        font-size: 0.9rem; /* Smaller font size for buttons */
+    }
+
+    .button-container {
+        flex-direction: column; /* Stack buttons vertically */
+        gap: 10px; /* Reduce space between buttons */
+    }
+}

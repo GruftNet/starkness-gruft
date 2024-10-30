@@ -1,0 +1,75 @@
+.deposit-container {
+    padding: 20px;
+    background-color: #f0f8ff; /* Light background color */
+    color: #333; /* Dark text for contrast */
+    max-width: 400px; /* Limit width for better readability */
+    margin: auto; /* Center the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+
+  .return-btn {
+    margin-top: 20px; /* Add spacing from other elements */
+    background-color: #4a90e2; /* Example color */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center; /* Center the title */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, select {
+    width: 100%; /* Full width for inputs */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .deposit-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #007bff; /* Primary color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%; /* Full width for button */
+  }
+  
+  .deposit-btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  .feedback-message {
+    margin-top: 20px;
+    color: green; /* Success message color */
+    text-align: center; /* Center the feedback message */
+  }
+
+  .return-btn {
+    margin-top: 20px; /* Add spacing from other elements */
+    background-color: #4a90e2; /* Example color */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
