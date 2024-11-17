@@ -76,17 +76,17 @@ pub mod erc20 {
             self.decimals.read()
         }
 
-        fn get_total_supply(self: @ContractState) -> felt252 {
+        fn get_total_supply(self: @ContractState) -> u256 {
             self.total_supply.read()
         }
 
-        fn balance_of(self: @ContractState, account: ContractAddress) -> felt252 {
+        fn balance_of(self: @ContractState, account: ContractAddress) -> u256 {
             self.balances.read(account)
         }
 
         fn allowance(
             self: @ContractState, owner: ContractAddress, spender: ContractAddress
-        ) -> felt252 {
+        ) -> u256 {
             self.allowances.read((owner, spender))
         }
 
@@ -100,14 +100,14 @@ pub mod erc20 {
             ref self: ContractState,
             sender: ContractAddress,
             recipient: ContractAddress,
-            amount: felt252
+            amount: u256
         ) {
             let caller = get_caller_address();
             self.spend_allowance(sender, caller, amount);
             self._transfer(sender, recipient, amount);
         }
 
-        fn approve(ref self: ContractState, spender: ContractAddress, amount: felt252) {
+        fn approve(ref self: ContractState, spender: ContractAddress, amount: u256) {
             let caller = get_caller_address();
             self.approve_helper(caller, spender, amount);
         }
